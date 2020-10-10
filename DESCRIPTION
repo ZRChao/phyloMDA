@@ -1,0 +1,30 @@
+Package: phyloMDA
+Type: Package
+Title: An R package for phylogeny-aware microbiome data analysis
+Version: 0.1.0
+Authors@R: 
+    person(given = "Chao",
+           family = "Zhou",
+           role = c("aut", "cre"),
+           email = "Supdream8@sjtu.edu.cn",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person(given = "Tiantian",
+           family = "Liu",
+           role = c("aut", "cre"),
+           email = "liu_double_tian@sjtu.edu.cn",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Maintainer: Chao Zhou <Supdream8@sjtu.edu.cn>  Tiantian Liu <liu_double_tian@sjtu.edu.cn>
+Description: An R package for phylogeny-aware microbiome data analysis
+License: GPL (>= 2)
+Imports: 
+    MGLM,
+    plyr,
+    caper,
+    phyloseq,
+    genlasso,
+    magrittr,
+    foreach,
+    ape
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
